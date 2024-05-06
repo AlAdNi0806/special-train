@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 const API_URL = "http://localhost:8082"
 
-const page = () => {
+const Page = () => {
     const router = useRouter()
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -119,4 +119,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

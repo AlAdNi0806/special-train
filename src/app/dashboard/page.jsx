@@ -21,7 +21,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 
 const API_URL = "http://localhost:8082"
 
-const page = () => {
+const Page = () => {
     const router = useRouter()
     const [id, setId] = useState('')
     const [userInfo, setUserInfo] = useState()
@@ -162,4 +162,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
