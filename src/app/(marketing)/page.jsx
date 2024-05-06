@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { useEffect } from 'react'
 import { jwtDecode } from 'jwt-decode';
 
-const page = () => {
+const Page = () => {
   const [id, setId] = useState()
 
   useEffect(() => {
@@ -127,4 +127,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
