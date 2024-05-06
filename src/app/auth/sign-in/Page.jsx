@@ -109,7 +109,7 @@ const Page = () => {
                         </Button>
                         <Link href={'/auth/sign-up'}>
                             <Button variant={'link'}>
-                                Don't have an account? Register
+                                Dont have an account? Register
                             </Button>
                         </Link>
                     </form>
